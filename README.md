@@ -1,33 +1,37 @@
-[![license](https://img.shields.io/github/license/cameronmathis/RepoTemplate)](LICENSE)
-[![CodeQL](https://github.com/cameronmathis/RepoTemplate/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cameronmathis/RepoTemplate/actions/workflows/codeql-analysis.yml)
-[![CodeFactor](https://www.codefactor.io/repository/github/cameronmathis/RepoTemplate/badge)](https://www.codefactor.io/repository/github/cameronmathis/RepoTemplate)
+[![license](https://img.shields.io/github/license/cameronmathis/FileStorageApplication)](LICENSE)
+[![CodeQL](https://github.com/cameronmathis/FileStorageApplication/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/cameronmathis/FileStorageApplication/actions/workflows/codeql-analysis.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/cameronmathis/filestorageapplication/badge)](https://www.codefactor.io/repository/github/cameronmathis/filestorageapplication)
 
-# Repo Template
+# File Storage Application
 
 ## Table of contents
 
 - [General info](#general-info)
 - [Setup](#setup)
-- [Software details](#Software-details)
 - [Status](#status)
 - [Contact](#contact)
 
 ## General info
 
-This is a template I created to easily spin up new GitHub Repositories.
+This is a Java file storage application that I wrote to practice Dependency Injection.
 
 ## Setup
 
-In order to use this...
+Download [JDK 11 or later](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html) for your operating system.
+Make sure `JAVA_HOME` is properly set to the JDK installation directory.
 
-## Software details
+## Maven
 
-Language:
+To compile and run the project:
+
+    export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
+
+    mvn clean javafx:run
 
 ## Status
 
-Version: </br>
-Project is: _in progress_
+Version: 1.0.0</br>
+Project is: _completed_
 
 ## Contact
 
